@@ -6,7 +6,16 @@ Conteúdo estudado no curso [Dart: sintaxe, coleções e dinamismo](https://curs
 
 ## 📌 Assuntos
 
-## Sintaxe
+- **Sintaxe:** Como usar a os conceitos de sintaxe do Dart em um código assertivo;
+- `enum`: Como criar um Enumerador, para tornar as comparações mais legíveis e eficientes;
+- `switch`: Como usar a estrutra condicional Switch-Case para comparações;
+- `set`: Como usar uma coleção que se comporta como uma lista onde os elementos não se repetem;
+- `map`: Como usar uma coleção na estrutura de "chave" e "valor";
+- `_`: Como tornar privada uma propriedade de uma classe;
+- `get`: Como criar um Getter de acesso à propriedades privadas;
+- `set`: Como criar um Setter para modificação de propriedades privadas.
+
+## ➡️ Sintaxe
 
 **Sintaxe** são normas de uma linguagem de ditam como deve ser escrita (ordem e como deve ser escrito) e palavras chaves/reservadas.
 
@@ -14,7 +23,7 @@ Conteúdo estudado no curso [Dart: sintaxe, coleções e dinamismo](https://curs
 
 > [_A tour to the Dart language_](https://dart.dev/guides/language/language-tour)
 
-## Enum e Switch Case
+## ➡️ Enum e Switch Case
 
 Enums (enumeradores) são tipos de dados identificadores que são criados por nós. Exemplo de transportes:
 
@@ -46,7 +55,7 @@ switch (locomocao) {
 }
 ```
 
-## Set
+## ➡️ Set
 
 Set é um conjunto que não pode possuir elementos repetidos.
 
@@ -56,7 +65,7 @@ Set<String> registrosVisitados = <String>{};
 
 > ⚠️ Iterable é uma classe abstrada que é implementada tanto por `set` quanto por `list`.
 
-## Map
+## ➡️ Map
 
 Um map é uma estrutura que possui um conjunto de chaves e um valores, bastante utilizado no consumo de _APIs_, por exemplo.
 
@@ -81,11 +90,11 @@ print(registrarPrecos);
 
 > ✨ Sobre o [`list`](https://github.com/jhoisz/Dart_listas) no Dart.
 
-## Dynamic
+## ➡️ Dynamic
 
 `Dynamic` é um tipo de variável que mesmo após ser atribuído o tipo, ainda pode ser alterada em tempo de execução (diferente do tipo `var` que após o tipo ser definido não pode mais mudar).
 
-## Variável estática
+## ➡️ Variável estática
 
 Uma variável do tipo `static` criada dentro de uma classe pode ser acessada mesmo que o objeto desta classe ainda não tenha sido instanciado. Por exemplo:
 
@@ -99,7 +108,7 @@ class Viagem {
 }
 ```
 
-## Encapsulamento
+## ➡️ Encapsulamento
 
 Utilizando o encapsulamento gerenciamos permissões dentro do códido, dessa maneira os dados podem ser públicos ou privados. Exemplo de `getter` e `setter`, usados para buscar e setar um dado privado dentro de uma classe, respectivamente.
 
