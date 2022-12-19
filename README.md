@@ -1,4 +1,4 @@
-<h1 align="center"> Dart: entendendo a Orientação a Objeto 🪑 </h1>
+<h1 align="center"> Dart: sintaxe, coleções e dinamismo 🎐 </h1>
 
 ## ℹ️ Sobre
 
